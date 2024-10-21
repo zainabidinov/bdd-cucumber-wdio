@@ -48,19 +48,18 @@ exports.config = {
     {
       browserName: "chrome",
       "goog:chromeOptions": {
-        // args: ["--headless", "--disable-gpu"],
+        args: ["--headless", "--disable-gpu"],
       },
     },
     {
       browserName: "firefox",
       "moz:firefoxOptions": {
-        // args: ["-headless"],
+        args: ["-headless"],
       },
     },
-    // {
-    //   browserName: "safari",
-    //   "safari.options": {},
-    // },
+    {
+      browserName: "safari",
+    },
   ],
 
   //
